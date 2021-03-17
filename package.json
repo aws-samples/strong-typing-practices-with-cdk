@@ -1,0 +1,27 @@
+{
+  "name": "well-typed",
+  "version": "0.1.0",
+  "bin": {
+    "well-typed": "bin/well-typed.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.80.0",
+    "@types/node": "10.17.27",
+    "aws-cdk": "1.80.0",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-iam": "1.80.0",
+    "@aws-cdk/aws-lambda": "1.80.0",
+    "@aws-cdk/aws-stepfunctions": "1.80.0",
+    "@aws-cdk/aws-stepfunctions-tasks": "1.80.0",
+    "@aws-cdk/core": "1.80.0",
+    "source-map-support": "0.5.16"
+  }
+}
