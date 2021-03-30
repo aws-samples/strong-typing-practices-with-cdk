@@ -2,7 +2,7 @@
 
 This project is shows a small example of how types can be used to declare a large number of infrastructure resources in a safe and concise manner.
 
-This code example is best understood when paired with this blog post.
+This code example is best understood when paired with this [blog post](https://aws.amazon.com/blogs/opensource/using-strong-typing-practices-to-declare-a-large-number-of-resources-with-aws-cdk/).
 
 If you're new to CDK you can follow the fantastic [CDK workshop tutorial](https://cdkworkshop.com) to get familiar with the framework.
 
